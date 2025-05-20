@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Interview Scheduling</title>
+    <link rel="stylesheet" href="interview_style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <a href="Dashboard.html" class="dashboard-link">Dashboard</a>
+    </div>
+    
+    <center>
+        <fieldset class="interview-box">
+            <h1>Schedule Your Interview</h1>
+            <form onsubmit="return validateInterviewForm()">
+                <table>
+                    <tr>
+                        <td>Select Date:</td>
+                        <td><input type="date" id="date" /></td>
+                        <td><span id="dateError" class="error-text"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Select Time Slot:</td>
+                        <td>
+                            <select id="time">
+                                <option value="">-- Choose a time slot --</option>
+                                <option>10:00 AM</option>
+                                <option>12:00 PM</option>
+                                <option>02:00 PM</option>
+                                <option>04:00 PM</option>
+                            </select>
+                        </td>
+                        <td><span id="timeError" class="error-text"></span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="submit-cell">
+                            <button type="submit" class="confirm-btn">
+                                Confirm Interview
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <p id="confirmation" class="confirmation-text"></p>
+        </fieldset>
+    </center>
+
+    <script src="interview_validation.js"></script>
+</body>
+</html>
