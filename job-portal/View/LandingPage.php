@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <title>Job Portal</title>
-    <link rel="stylesheet" href="../Asset/style.css">
+    <link rel="stylesheet" href="../Asset/styles/style.css">
 </head>
 <body>
     <div class="top-bar">
         <div class="auth-buttons">
             <a href="SignUp.php" class="signup-btn">Create Account</a>
-            <a href="Login.html" class="login-btn">Login</a>
+            <a href="Login.php" class="login-btn">Login</a>
         </div>
     </div>
 
@@ -34,7 +34,7 @@
                         <option>Chittagong</option>
                     </select>
                     <button>
-                        <a href="JobListings.html">Search Jobs</a>
+                        <a href="JobListings.php">Search Jobs</a>
                     </button>
                 </div>
 
@@ -54,8 +54,8 @@
             <div class="cta-section">
                 <h3>Get Started Now!</h3>
                 <div class="cta-buttons">
-                    <a href="ContactUs.html" class="contact-btn">Contact Us</a>
-                    <a href="JobListings.html" class="browse-btn">Browse Jobs</a>
+                    <a href="ContactUs.php" class="contact-btn">Contact Us</a>
+                    <a href="JobListings.php" class="browse-btn">Browse Jobs</a>
                 </div>
             </div>
 

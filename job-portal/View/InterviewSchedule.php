@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <title>Interview Scheduling</title>
-    <link rel="stylesheet" href="../Asset/interview_style.css">
+    <link rel="stylesheet" href="../Asset/styles/interview_style.css">
 </head>
 <body>
     <div class="top-bar">

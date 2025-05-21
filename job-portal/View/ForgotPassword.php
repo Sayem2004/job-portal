@@ -5,8 +5,8 @@
 </head>
 <body style="background-color: rgb(134, 173, 173);">
     <div style="text-align: center; margin: 20px;">
-        <a href="LandingPage.html" style="margin: 0 10px; padding: 6px 12px; background-color: #4CAF50; color: white;">Home</a>
-        <a href="login.html" style="margin: 0 10px; padding: 6px 12px; background-color: #235106; color: white;">Login</a>
+        <a href="LandingPage.php" style="margin: 0 10px; padding: 6px 12px; background-color: #4CAF50; color: white;">Home</a>
+        <a href="login.php" style="margin: 0 10px; padding: 6px 12px; background-color: #235106; color: white;">Login</a>
     </div>
     <center>
     <fieldset style="width: 400px; height: 250px; background-color: antiquewhite;">
@@ -27,6 +27,6 @@
         </form>
     </fieldset>
     </center>
-    <script src="../Asset/forgotPassword_validation.js"></script>
+    <script src="../Asset/scripts/forgotPassword_validation.js"></script>
 </body>
 </html>

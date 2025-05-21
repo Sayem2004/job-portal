@@ -5,7 +5,7 @@
 </head>
 <body style="background-color: rgb(134, 173, 173); font-family: Arial, sans-serif;">
     <div style="text-align: center; margin: 20px;">
-        <a href="Dashboard.html" style="padding: 6px 12px; background-color: #4CAF50; color: white;">Dashboard</a>
+        <a href="Dashboard.php" style="padding: 6px 12px; background-color: #4CAF50; color: white;">Dashboard</a>
     </div>
     <center>
     <fieldset style="width: 700px; background-color: antiquewhite; padding: 20px; border-radius: 8px;">

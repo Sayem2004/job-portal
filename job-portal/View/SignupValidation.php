@@ -72,7 +72,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         }
     }
         if ($formValid) {
-        header("Location: login.html");
+        header("Location: login.php");
         exit();
     }
 

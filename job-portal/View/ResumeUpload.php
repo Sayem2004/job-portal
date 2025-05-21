@@ -5,7 +5,7 @@
 </head>
 <body style="background-color: rgb(134, 173, 173); font-family: Arial, sans-serif;">
     <div style="text-align: center; margin: 20px;">
-        <a href="LandingPage.html" style="padding: 6px 12px; background-color: #4CAF50; color: white; text-decoration: none;">Home</a>
+        <a href="LandingPage.php" style="padding: 6px 12px; background-color: #4CAF50; color: white; text-decoration: none;">Home</a>
         <a href="Dashboard.php" style="padding: 6px 12px; background-color: #4CAF50; color: white; text-decoration: none;">Dashboard</a>
 
     </div>
@@ -27,6 +27,6 @@
     </fieldset>
     </center>
 
-    <script src="../Asset/resume_validation.js"></script>
+    <script src="../Asset/scripts/resume_validation.js"></script>
 </body>
 </html>

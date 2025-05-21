@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <title>Contact Us</title>
-    <link rel="stylesheet" href="../Asset/ContactUS_style.css">
+    <link rel="stylesheet" href="../Asset/styles/ContactUS_style.css">
 </head>
 <body>
     <div class="nav">
-        <a href="LandingPage.html" class="btn green">Home</a>
-        <a href="login.html" class="btn darkgreen">Login</a>
+        <a href="LandingPage.php" class="btn green">Home</a>
+        <a href="Login.php" class="btn darkgreen">Login</a>
     </div>
 
     <center>
@@ -58,6 +58,6 @@
         </fieldset>
     </center>
 
-    <script src="../Asset/contact_validation.js"></script>
+    <script src="../Asset/scripts/contact_validation.js"></script>
 </body>
 </html>

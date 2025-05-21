@@ -14,8 +14,8 @@ if (isset($_SESSION['name'])) {
 </head>
 <body>
     <div class="nav-links">
-        <a href="LandingPage.html" class="btn green">Home</a>
-        <a href="SignUp.html" class="btn darkgreen">Signup</a>
+        <a href="LandingPage.php" class="btn green">Home</a>
+        <a href="SignUp.php" class="btn darkgreen">Signup</a>
     </div>
 
     <center>
@@ -45,7 +45,7 @@ if (isset($_SESSION['name'])) {
                     </tr>
                     <tr>
                         <td colspan="2" style="padding-top: 10px;">
-                            <a href="forgotPassword.html" class="btn red">Forgot Password?</a>
+                            <a href="forgotPassword.php" class="btn red">Forgot Password?</a>
                         </td>
                     </tr>
                 </table>
