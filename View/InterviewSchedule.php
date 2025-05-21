@@ -1,13 +1,22 @@
 <?php include "interviewValidation.php"; ?>
+<?php
+session_start();
+
+if (!isset($_SESSION['name'])) {
+    header("Location: /job-portal/View/Login.php");
+    exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Interview Scheduling</title>
-    <link rel="stylesheet" href="../Asset/interview_style.css">
+    <link rel="stylesheet" href="../Asset/styles/interview_style.css">
 </head>
 <body>
     <div class="top-bar">
-        <a href="Dashboard.html" class="dashboard-link">Dashboard</a>
+        <a href="Dashboard.php" class="dashboard-link">Dashboard</a>
     </div>
 
     <center>

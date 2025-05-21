@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['name'])) {
+    header("Location: /job-portal/View/Login.php");
+    exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,13 +1,23 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['name'])) {
+    header("Location: /job-portal/View/Login.php");
+    exit;
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Dashboard</title>
-    <link rel="stylesheet" href="../Asset/Dashboard.css">
+    <link rel="stylesheet" href="../Asset/styles/Dashboard.css">
 </head>
 <body>
     <div class="top-bar">
-        <a href="LandingPage.html" class="btn green">Home</a>
-        <a href="login.html" class="btn red" onclick="performLogout()">Logout</a>
+        <a href="LandingPage.php" class="btn green">Home</a>
+        <a href="./Login.php" class="btn red" onclick="performLogout()">Logout</a>
     </div>
 
     <center>
@@ -17,14 +27,18 @@
             <!-- Quick Actions -->
             <table class="quick-actions">
                 <tr>
-                    <td><a href="profile.html" class="action-link skyblue">Profile Settings</a></td>
-                    <td><a href="ResumeUpload.html" class="action-link maroon">Upload Resume</a></td>
-                    <td><a href="appointments.html" class="action-link green">My Appointments</a></td>
-                    <td><a href="InterviewSchedule.html" class="action-link gold">Schedule Interview</a></td>
+                    <td><a href="ResumeUpload.php" class="action-link maroon">Upload Resume</a></td>
+                    <td><a href="InterviewSchedule.php" class="action-link gold">Schedule Interview</a></td>
+                     <td><a href="CareerResources.php" class="action-link purple">Career Resources</a></td>
+                    <td><a href="CompanyProfiles.php" class="action-link orange">Company Profiles</a></td>
+               
+
                 </tr>
                 <tr>
-                    <td><a href="CareerResources.html" class="action-link purple">Career Resources</a></td>
-                    <td><a href="CompanyProfiles.html" class="action-link orange">Company Profiles</a></td>
+                    <td><a href="profile.php" class="action-link skyblue">Profile Settings</a></td>
+                    <td><a href="appointments.php" class="action-link green">My Appointments</a></td>
+
+                   
                 </tr>
             </table>
 
@@ -49,9 +63,9 @@
 
             <!-- Footer -->
             <div class="footer-actions">
-                <a href="Settings.html" class="btn darkgreen">Settings</a>
-                <a href="Support.html" class="btn red">Support</a>
-                <a href="LandingPage.html" class="btn green">Help</a>
+                <a href="Settings.php" class="btn darkgreen">Settings</a>
+                <a href="ContactUs.php" class="btn red">Support</a>
+                <a href="ContactUs.php" class="btn green">Help</a>
             </div>
         </fieldset>
     </center>
@@ -59,7 +73,7 @@
     <script>
         function performLogout() {
             localStorage.removeItem('authToken');
-            window.location.href = 'login.html';
+            window.location.href = 'login.php';
         }
     </script>
 </body>

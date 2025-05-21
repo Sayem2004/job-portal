@@ -5,12 +5,12 @@ include "SignupValidation.php";
 <html lang="en">
 <head>
     <title>Signup Form</title>
-    <link rel="stylesheet" href="../Asset/signup_style.css">
+    <link rel="stylesheet" href="../Asset/styles/signup_style.css">
 </head>
 <body>
     <div class="nav-links">
-        <a href="LandingPage.html" class="btn green">Home</a>
-        <a href="login.html" class="btn darkgreen">Login</a>
+        <a href="LandingPage.php" class="btn green">Home</a>
+        <a href="login.php" class="btn darkgreen">Login</a>
     </div>
 
     <center>

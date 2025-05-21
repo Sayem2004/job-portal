@@ -1,9 +1,18 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['name'])) {
+    header("Location: /job-portal/View/Login.php");
+    exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Job Listings</title>
-  <link rel="stylesheet" href="../Asset/joblistings_style.css">
+  <link rel="stylesheet" href="../Asset/styles/joblistings_style.css">
 </head>
 <body>
   <center>
@@ -16,7 +25,7 @@
       <div id="job-container" class="job-container"></div>
 
       <div class="back-section">
-        <a href="LandingPage.html" class="back-btn">
+        <a href="LandingPage.php" class="back-btn">
           ⬅ Back to Home
         </a>
       </div>
@@ -28,6 +37,6 @@
     </fieldset>
   </center>
 
-  <script src="../Asset/jobListings.js"></script>
+  <script src="../Asset/scripts/jobListings.js"></script>
 </body>
 </html>
