@@ -35,7 +35,7 @@ if (!isset($_SESSION['name'])) {
 
                 </tr>
                 <tr>
-                    <td><a href="profile.php" class="action-link skyblue">Profile Settings</a></td>
+                    <td><a href="ForgotPassword.php" class="action-link skyblue">Profile Settings</a></td>
                     <td><a href="appointments.php" class="action-link green">My Appointments</a></td>
 
                    
@@ -63,7 +63,7 @@ if (!isset($_SESSION['name'])) {
 
             <!-- Footer -->
             <div class="footer-actions">
-                <a href="Settings.php" class="btn darkgreen">Settings</a>
+                <a href="404.php" class="btn darkgreen">Settings</a>
                 <a href="ContactUs.php" class="btn red">Support</a>
                 <a href="ContactUs.php" class="btn green">Help</a>
             </div>
