@@ -1,0 +1,82 @@
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .subscription-box {
+      border: 1px solid #ccc;
+      padding: 30px;
+      border-radius: 6px;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .subscription-box h2 {
+      margin: 0 0 10px;
+      font-size: 24px;
+    }
+
+    .subscription-box p {
+      margin-bottom: 20px;
+      color: #555;
+      font-size: 14px;
+    }
+
+    .subscription-box input[type="email"],
+    .subscription-box select {
+      width: 100%;
+      padding: 10px 12px;
+      margin-bottom: 15px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .form-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    .form-row select {
+      flex: 1;
+    }
+
+    .checkbox-label {
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .checkbox-label input {
+      margin-right: 8px;
+    }
+
+    .subscription-box button {
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .subscription-box button:hover {
+      background-color: #333;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 20px;
+      cursor: pointer;
+    }
