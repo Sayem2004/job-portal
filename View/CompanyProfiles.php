@@ -13,9 +13,7 @@ if (!isset($_SESSION['name'])) {
     <title>Company Profiles</title>
 </head>
 <body style="background-color: rgb(134, 173, 173); font-family: Arial, sans-serif;">
-    <div style="text-align: center; margin: 20px;">
-        <a href="Dashboard.php" style="padding: 6px 12px; background-color: #4CAF50; color: white;">Dashboard</a>
-    </div>
+    
     <center>
     <fieldset style="width: 700px; background-color: antiquewhite; padding: 20px; border-radius: 8px;">
         <h1>Top Company Profiles</h1>
@@ -40,7 +38,11 @@ if (!isset($_SESSION['name'])) {
             <p><strong>Rating:</strong> ★★★★★</p>
             <p><em>“Very creative team with awesome UI/UX design process.”</em></p>
         </div>
-    </fieldset>
+        </fieldset>
+        <div style="text-align: center; margin: 20px;">
+        <a href="Dashboard.php" style="padding: 6px 12px; background-color: #4CAF50; color: white;">Dashboard</a>
+    </div>
+    
     </center>
 </body>
 </html>

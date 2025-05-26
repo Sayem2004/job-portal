@@ -18,7 +18,7 @@ if (!isset($_SESSION['name'])) {
     
 
     <center>
-        <fieldset class="interview-box">
+        <fieldset class="interview-box"  style="text-align: left;">
             <h1>Schedule Your Interview</h1>
             <form method="POST">
                 <table>
