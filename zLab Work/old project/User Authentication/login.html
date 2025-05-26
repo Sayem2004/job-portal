@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Form</title>
+</head>
+<body style="background-color: rgb(134, 173, 173);">
+    <center>
+    <fieldset style="width: 600px; height: 300px; background-color: antiquewhite;">
+        <h1>Login Form</h1>
+        <form onsubmit="return validateForm()" >
+            <table>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input type="tel" name="phone" id="phone" /></td>
+                    <td><span id="phoneError"></span></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" id="password"/></td>
+                    <td><span id="passwordError"></span></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center;">
+                        <button type="submit">Login</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style=" padding-top: 10px;">
+                        <a href="forgotPassword.html"style="padding:6px ; background-color:#810513;color:white;">Forgot Password?</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style=" padding-top: 10px;">
+                        <a href="SignUp.html" style="padding:6px ; background-color:#235106;color:white;">SignUp</a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    </center>
+    <script src="login_Validation.js"></script>
+</body>
+</html>

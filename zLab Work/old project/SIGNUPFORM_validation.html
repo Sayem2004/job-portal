@@ -1,0 +1,45 @@
+<script>
+    let form = document.querySelector("form");
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault(); 
+
+        let firstName = form.firstname.value.trim();
+        let lastName = form.lastname.value.trim();
+        let id = form.id.value.trim();
+        let email = form.email.value.trim();
+        let phone = form.phone.value.trim();
+        let password = form.password.value.trim();
+        let dob = form.dob.value;
+        let gender = form.gender.value;
+
+        
+        if (!firstName || !lastName || !id || !email || !phone || !password || !dob || !gender) {
+            alert("Please fill in all fields.");
+            return;
+        }
+
+       
+        let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(email)) {
+            alert("Please enter a valid email address.");
+            return;
+        }
+
+       
+        let phonePattern = /^\+?[0-9]{7,15}$/;
+        if (!phonePattern.test(phone)) {
+            alert("Please enter a valid phone number.");
+            return;
+        }
+
+        
+        if (password.length < 6) {
+            alert("Password must be at least 6 characters long.");
+            return;
+        }
+
+        alert("Form submitted successfully!");
+        form.submit(); 
+    });
+</script>
