@@ -7,6 +7,7 @@
 <body>
     <div class="top-bar">
         <div class="auth-buttons">
+            <a href="Dashboard.php" class="signup-btn">Dashboard</a>
             <a href="SignUp.php" class="signup-btn">Create Account</a>
             <a href="Login.php" class="login-btn">Login</a>
         </div>

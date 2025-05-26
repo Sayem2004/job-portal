@@ -36,7 +36,7 @@ if (!isset($_SESSION['name'])) {
                 </tr>
                 <tr>
                     <td><a href="ForgotPassword.php" class="action-link skyblue">Profile Settings</a></td>
-                    <td><a href="appointments.php" class="action-link green">My Appointments</a></td>
+                    <td><a href="500.php" class="action-link green">My Appointments</a></td>
 
                    
                 </tr>

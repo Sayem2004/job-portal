@@ -15,9 +15,7 @@ if (!isset($_SESSION['name'])) {
     <link rel="stylesheet" href="../Asset/styles/interview_style.css">
 </head>
 <body>
-    <div class="top-bar">
-        <a href="Dashboard.php" class="dashboard-link">Dashboard</a>
-    </div>
+    
 
     <center>
         <fieldset class="interview-box">
@@ -45,9 +43,12 @@ if (!isset($_SESSION['name'])) {
                     <tr>
                         <td colspan="2" class="submit-cell">
                             <button type="submit" class="confirm-btn">Confirm Interview</button>
+                            <a href="Dashboard.php" class="dashboard-link">Dashboard</a>
+
                         </td>
                     </tr>
                 </table>
+                    
                 <p class="confirmation-text"><?php echo $confirmation; ?></p>
             </form>
         </fieldset>

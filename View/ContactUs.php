@@ -16,7 +16,7 @@ if (!isset($_SESSION['name'])) {
 <body>
     <div class="nav">
         <a href="LandingPage.php" class="btn green">Home</a>
-        <a href="Login.php" class="btn darkgreen">Login</a>
+        <a href="Dashboard.php" class="btn darkgreen">Dashboard</a>
     </div>
 
     <center>

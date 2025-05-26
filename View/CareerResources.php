@@ -13,9 +13,9 @@ if (!isset($_SESSION['name'])) {
     <title>Career Resources</title>
 </head>
 <body style="background-color: rgb(134, 173, 173); font-family: Arial, sans-serif;">
-    <div style="text-align: center; margin: 20px;">
+    <!-- <div style="text-align: center; margin: 20px;">
         <a href="Dashboard.php" style="padding: 6px 12px; background-color: #4CAF50; color: white;">Dashboard</a>
-    </div>
+    </div> -->
     <center>
     <fieldset style="width: 700px; background-color: antiquewhite; padding: 20px; border-radius: 8px;">
         <h1 style="text-align: left;">Career Resources</h1>
@@ -39,6 +39,7 @@ if (!isset($_SESSION['name'])) {
             <li><a href="sample_resume.pdf" download>Download Sample Resume (PDF)</a></li>
             <li><a href="interview_checklist.docx" download>Download Interview Checklist (DOCX)</a></li>
         </ul>
+        <a href="Dashboard.php" style="padding: 6px 12px; background-color: #4CAF50; color: white;">Dashboard</a>
     </fieldset>
     </center>
 </body>

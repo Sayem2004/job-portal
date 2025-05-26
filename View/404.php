@@ -14,9 +14,7 @@
         <img src="error-icon.png" alt="Error" style="width: 100px; margin: 20px;">
         <div style="margin-top: 30px;">
             <a href="Dashboard.php" style="padding: 10px 25px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 4px;">Go Back Dashboard</a>
-        </div>
-        <div style="text-align: center; margin: 20px;">
-        <a href="LandingPage.php" style="margin: 0 10px; padding: 6px 12px; background-color: #4CAF50; color: white;">Home</a>
+            <a href="LandingPage.php"style="padding: 10px 25px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 4px;">Home</a>
     </div>
         
     </fieldset>
