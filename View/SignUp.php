@@ -19,20 +19,20 @@ include "SignupValidation.php";
             <form method="POST" onsubmit="return validateForm()">
                 <table>
                     <tr>
-                        <td>First Name:</td>
+                        <td>Name:</td>
                         <td><input type="text" name="firstname" id="firstname" /></td>
                         <td><span id="firstNameError" class="error-text"><?php echo $fnameError;?></span></td>
                     </tr>
                     <tr>
-                        <td>Last Name:</td>
+                        <td>User Name:</td>
                         <td><input type="text" name="lastname" id="lastname" /></td>
                         <td><span id="lastNameError" class="error-text"><?php echo $lnameError;?></span></td>
                     </tr>
-                    <tr>
+                    <!-- <tr>
                         <td>ID:</td>
                         <td><input type="number" name="id" id="id" /></td>
                         <td><span id="idError" class="error-text"><?php echo $idError;?></span></td>
-                    </tr>
+                    </tr> -->
                     <tr>
                         <td>Email:</td>
                         <td><input type="email" name="email" id="email" /></td>
